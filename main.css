@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Yeseva One", cursive;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/*===========================================================================
+ NAVBAR
+=========================================================================== */
+nav * {
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+nav a {
+  font-family: "Rubik", sans-serif;
+  width: 55%;
+  margin-right: 90px;
+  padding-top: 20px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #ff8800;
+}
+
+nav i:hover {
+  color: #ff8800;
+  border: none;
+}
+
+/*==============================================================================
+ HEADER
+================================================================================ */
+
+header {
+  background: url(img/cuisine1.jpg) no-repeat;
+  background-size: cover;
+  background-position: top 10% right 20%;
+  height: 700px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 300;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+header input {
+  height: 60px;
+  width: 600px;
+  margin-left: 100px;
+  border: 1px solid #ff8800;
+}
+
+/*========================================================================= 
+MAIN
+=========================================================================== */
+main {
+  height: 700px;
+  text-align: center;
+  background: url(img/cuisine5.jpg) no-repeat left/cover;
+  background-position: top;
+}
+
+main span {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #ff8800;
+  padding: 30px 0 30px 0;
+  margin-top: 20px;
+}
+
+main h2 {
+  font-size: 70px;
+  padding: 0 0 20px 80px;
+}
+
+main p {
+  padding: 0 80px 20px 100px;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+}
+
+main button {
+  color: #ffffff;
+  background: #ff8800;
+  border: #ff8800;
+  font-family: "Rubik", sans-serif;
+  height: 60px;
+  width: 150px;
+}
+
+/*================================================================================== 
+ORDER ONLINE
+=================================================================================== */
+
+.meals {
+  background: #f2f6f7;
+  height: 600px;
+  text-align: center;
+}
+
+.meals a {
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+
+  color: #ff8800;
+  font-family: "Rubik", sans-serif;
+
+  margin-top: 40px;
+}
+
+.meals h2 {
+  font-size: 50px;
+  padding: 40px 0 20px 0;
+}
+
+.meals ul li {
+  float: left;
+  /* width: 2%; */
+  list-style: none;
+  margin-top: 90px;
+  margin-left: 200px;
+  padding: 10px 10px 0 40px;
+}
+
+.meals li:hover {
+  border-bottom: 3px solid #ff8800;
+}
+
+.photos img {
+  height: 300px;
+  padding: 70px 5px 0 5px;
+}
+
+.photos img:hover {
+  opacity: 0.7;
+}
+
+/*============================================================================= 
+HOURS OF OPERATION
+=============================================================================== */
+
+.hours {
+  text-align: center;
+  height: 650px;
+  background: #f2f6f7;
+}
+
+.hours h2 {
+  padding: 50px 0 50px 0;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.hours i {
+  color: #ff8800;
+  /* float: right; */
+  padding-left: 10px;
+}
+
+.phone {
+  text-align: center;
+  margin: 30px 0 10px 50px;
+  font-size: 50px;
+  color: #ff8800;
+}
+
+.day {
+  font-size: 29px;
+  font-family: "Rubik", sans-serif;
+  padding: 20px 0 20px 0;
+  margin: 20px 20px;
+}
+
+/*=============================================================================== 
+REVIEW
+================================================================================== */
+.review {
+  height: 500px;
+}
+
+.review h4 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 200;
+  padding: 30px 0 80px 0;
+}
+
+.review img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.review > span {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 15px 0 10px 0;
+}
+
+.review i {
+  color: gold;
+}
+
+.review p {
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
