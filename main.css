@@ -150,14 +150,6 @@ ORDER ONLINE
   padding: 40px 0 20px 0;
 }
 
-/* .meals ul li {
-  float: left;
-  list-style: none;
-  margin-top: 90px;
-  margin-left: 200px;
-  padding: 10px 10px 0 40px;
-} */
-
 .meal-section,
 li {
   display: flex;
@@ -170,8 +162,8 @@ li {
 }
 
 .photos img {
-  height: 300px;
-  padding: 70px 5px 0 5px;
+  max-height: 300px;
+  padding: 60px 15px 0 25px;
 }
 
 .photos img:hover {
