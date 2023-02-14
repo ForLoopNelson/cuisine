@@ -100,19 +100,24 @@ main span {
   font-family: "Rubik", sans-serif;
   text-align: center;
   color: #ff8800;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 0 0;
   margin-top: 20px;
+  border-bottom: #ff8800 2px solid;
 }
 
 main h2 {
   font-size: 70px;
   padding: 0 0 20px 80px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 main p {
   padding: 0 80px 20px 100px;
   font-size: 25px;
   font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .btn {
@@ -161,9 +166,16 @@ li {
   border-bottom: 3px solid #ff8800;
 }
 
+.photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .photos img {
-  max-height: 300px;
-  padding: 60px 15px 0 25px;
+  max-height: 250px;
+  max-width: 500px;
+  /* object-fit: scale-down; */
+  padding: 30px 0 0 0;
 }
 
 .photos img:hover {
@@ -200,10 +212,10 @@ HOURS OF OPERATION
 }
 
 .day {
-  font-size: 29px;
+  font-size: 49px;
   font-family: "Rubik", sans-serif;
-  padding: 20px 0 20px 0;
-  margin: 20px 20px;
+  padding: 90px 0 20px 0;
+  margin: 60px 80px;
 }
 
 /*=============================================================================== 
@@ -224,9 +236,9 @@ REVIEW
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 8%;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .review > span {
