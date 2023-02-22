@@ -236,9 +236,9 @@ REVIEW
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 8%;
-  height: 200px;
-  border-radius: 30%;
+  width: 12%;
+  height: 180px;
+  border-radius: 50%;
 }
 
 .review > span {
