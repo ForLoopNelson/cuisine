@@ -263,10 +263,3 @@ REVIEW
   margin-right: auto;
   display: block;
 }
-
-@media (max-width: 600px) {
-  body {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
